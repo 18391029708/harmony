@@ -1,0 +1,31 @@
+<!-- index.hml -->
+<div class="container">
+    <!--    <form>-->
+    <!--用户：-->
+    <!--<input type="text" name="user">-->
+
+    <!--密码：-->
+    <!--<input type="password" name="password">-->
+    <!--</form>-->
+    <div class="loginbox">
+        <div class="head">
+            <text style="font-size:50px;" >欢迎来到web前端实验室</text>
+        </div>
+        <div class="first">
+
+            <input type="number" placeholder="账号"  ></input>
+            <div class="aa"><input type="number" placeholder="密码" value="密码" focusable="true"></input></div>
+            <button class="aa" value="登录" onclick="thirdPage"></button>
+            <div class="content" ><text class="content1">没有账号，立即注册</text></div>
+
+        </div>
+        <div style="height: 150px;width: 150px;">
+            <text>图标</text>
+            <image class="image-mode" src="/common/scan.svg"></image>
+        </div>
+    </div>
+
+</div>
+
+
+

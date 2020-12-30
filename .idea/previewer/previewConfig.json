@@ -1,0 +1,13 @@
+{
+ "1.0.0": {
+  "LastPreviewDevice": {
+   "E:\\harmonyproject\\entry\\build\\intermediates\\res\\debug": [
+    "phone",
+    "tv"
+   ],
+   "E:\\harmonyproject\\entry": [
+    "phone"
+   ]
+  }
+ }
+}

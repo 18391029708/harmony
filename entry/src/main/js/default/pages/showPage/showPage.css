@@ -1,0 +1,108 @@
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+}
+/* phone */
+@media screen and (device-type: phone) {
+    .tabarea{
+
+    }
+    .tabs {
+        position: fixed;
+        width: 100%;
+        vertical:false;
+
+        margin-end:0px;
+
+        border-color:fuchsia;
+        background-color: azure;
+
+    }
+    .tabcontent {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    .item-content {
+        height: 100%;
+        justify-content: center;
+    }
+    .item-title {
+        font-size: 60px;
+    }
+    .tab-bar {
+
+
+        width:100%;
+        height: 100px;
+        border-color: #007dff;
+        background-color: fuchsia;
+
+
+        border-width: 1px;
+        background-position: bottom;
+
+    }
+    .tab-text {
+width: 100%;
+        height: 80%;
+        text-align: center;
+    }
+    .FirstSlice{
+        flex-direction: column;
+    }
+    .firstLine{
+        height: 200px;
+        background-color: blue;
+    }
+    .first_line_Block{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .image-mode{
+        width: 100%;
+        align-content: center;
+        position: relative;
+    }
+    .secondLine{
+        width: 100%;
+        height: 500px;
+        background-color: lavender;
+    }
+    .thirdLine{
+        height: 150px;
+        background-color: beige;
+        border-radius:10px;
+        margin-right:10px ;
+        margin-left:10px ;
+    }
+    .fourthLine{
+        height: 300px;
+        background-color: aqua;
+    }
+    .fifthLine{
+        height: 500px;
+        background-color: coral;
+    }
+    .sixthLine{
+        height: 400px;
+        background-color: darkgray;
+    }
+    .seventhLine{
+        height: 600px;
+        background-color: darkseagreen;
+    }
+    .eigthLine{
+        height: 300px;
+        background-color: gold;
+    }
+
+}

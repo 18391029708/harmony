@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="tabarea">
+        <tabs class = "tabs" vertical='false' index="0" vertical="false" onchange="change">
+
+            <tab-content class="tabcontent" scrollable="true">
+                <list>
+                    <list-item class="FirstSlice" >
+                        <div class="firstLine">
+                            <div class="first_line_Block" style="align-content: center;height: 100px;flex-direction: column;">
+                                <image class="image-mode" style="width: 50px;height: 50px;" src="/common/scan.svg"></image>
+                                <text style="color: aliceblue;">扫一扫</text>
+                            </div>
+                            <div class="first_line_Bock">
+                                <image class="image-mode" src="/common/paystyle.svg"></image>
+                                <text style="color: aliceblue;">收付款</text>
+                            </div>
+                            <div class="first_line_Block">
+                                <image class="image-mode" src="/common/goto.svg"></image>
+                                <text style="color: aliceblue;">出行</text>
+                            </div>
+                        </div>
+                        <div class="secondLine"></div>
+                        <div class="thirdLine"><text>推送文本消息</text></div>
+                        <div class="fourthLine"><text>轮播图</text></div>
+                        <div class="fifthLine" onclick="detial"><text>优惠活动</text></div>
+                        <div class="sixthLine"><text>广告一区</text></div>
+                        <div class="seventhLine"><text>广告二区</text></div>
+                        <div class="eigthLine"><text>广告三区</text></div>
+                        <div><text>我是有底线的</text></div>
+                    </list-item>
+                </list>
+
+                <div class="item-content" >
+                    <text class="item-title">slice 2</text>
+                </div>
+                <div class="item-content" >
+                    <text class="item-title">slice 3</text>
+                </div >
+                <div class="item-content">
+                    <text class="item-title">slice 4</text>
+                </div>
+            </tab-content>
+            <tab-bar mode="fixed" class="tab-bar" >
+                <text class="tab-text" >首页</text>
+                <text class="tab-text">详情</text>
+                <text class="tab-text">设置</text>
+                <text class="tab-text">我的</text>
+
+            </tab-bar>
+        </tabs>
+    </div>
+
+</div>
